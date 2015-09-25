@@ -16,8 +16,8 @@ package twittergo
 
 import (
 	"compress/gzip"
+	"encoding/json"
 	"fmt"
-	"github.com/kurrik/json"
 	"io"
 	"io/ioutil"
 	"net/http"
